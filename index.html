@@ -1,0 +1,115 @@
+<html >
+  <head>
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="container navbar d-flex p-5">
+        <div class="d-flex justify-content-center align-items-center">
+          <img
+            src="https://routeweather.netlify.app/images/logo@2x.png"
+            alt="Logo"
+            class="d-inline-block align-text-top w-25 h-25"
+          />
+          <div class="d-block ms-2">
+            <div>
+              <a class="navbar-brand text-white text-center" href="#">
+                Weather
+              </a>
+            </div>
+            <div>
+              <a class="navbar-brand text-center small-font" href="#">
+                tagline goes here
+              </a>
+            </div>
+          </div>
+        </div>
+        <form class="justify-content-start">
+          <button
+            class="btn btn-outline-primary me-2 fs-6 active"
+            type="button"
+          >
+            Home
+          </button>
+          <button class="btn btn-outline-primary me-2 fs-6" type="button">
+            News
+          </button>
+          <button class="btn btn-outline-primary me-2 fs-6" type="button">
+            Live Cameras
+          </button>
+          <button class="btn btn-outline-primary me-2 fs-6" type="button">
+            Photos
+          </button>
+          <button class="btn btn-outline-primary me-2 fs-6" type="button">
+            Contact
+          </button>
+        </form>
+      </nav>
+    </header>
+    <!-- Search Section -->
+    <section class="search-section">
+      <div class=" py-5 container">
+        
+        <div class="search position-relative">
+          <input
+            type="text"
+            class="w-100"
+            placeholder="Find your location"
+            id="search-filed"
+          />
+          <button id="sumbit-button" class="position-absolute">Find</button>
+        </div>
+        <div class="row gy-4" id="getNewData"></div>
+      </div>
+    </section>
+    <!-- Footer Section -->
+    <footer>
+      <div class="container p-5">
+        <div class="row gy-4">
+          <div class="col-lg-8 col-md-10  position-relative subscribe">
+            <input
+              type="text"
+              placeholder="Enter your email"
+            />
+            <button>Subscribe</button>
+          </div>
+          <div class="col-lg-2 offset-lg-1">
+            <ul class="d-flex">
+              <li>
+                <a  
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a  
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a 
+                  ><i class="fa-brands fa-google-plus-g"></i
+                ></a>
+              </li>
+              <li>
+                <a  
+                  ><i class="fa-brands fa-pinterest"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <p class="text-center fs-6">
+            Copyright 2014 Company name. Designed by Themezy. All rights
+            reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
